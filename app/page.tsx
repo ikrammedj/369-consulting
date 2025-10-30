@@ -3,9 +3,9 @@ import { ArrowRight, Target, Leaf, Users, Zap, TrendingUp, Globe, Briefcase } fr
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-background text-foreground">
+    <main className="min-h-screen bg-background text-foreground overflow-x-hidden">
       {/* Navigation */}
-      <nav className="sticky top-0 z-50 bg-background/80 backdrop-blur border-b border-border">
+      <nav className="sticky top-0 z-50 bg-background/80 backdrop-blur ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4 flex items-center justify-between">
           {/* Logo */}
           <div className="h-10 w-16 sm:h-12 sm:w-20">
@@ -44,7 +44,7 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative py-16 md:py-24 lg:py-32 px-4 sm:px-6 lg:px-8 bg-background overflow-hidden">
+      <section className="relative py-16 md:py-24 lg:py-32 px-4 sm:px-6 lg:px-8 bg-background">
         <div className="spotlight hidden lg:block" style={{ width: "800px", height: "800px", top: "-300px", right: "-200px" }}></div>
         <div className="spotlight hidden lg:block" style={{ width: "800px", height: "800px", bottom: "50px", left: "-300px" }}></div>
 
@@ -89,7 +89,7 @@ export default function Home() {
       </section>
 
       {/* Core Values */}
-      <section className="relative py-16 md:py-24 lg:py-32 px-4 sm:px-6 lg:px-8 bg-background overflow-hidden">
+      <section className="relative py-16 md:py-24 lg:py-32 px-4 sm:px-6 lg:px-8 bg-background">
         <div className="spotlight hidden lg:block" style={{ width: "700px", height: "700px", top: "-200px", left: "-300px" }}></div>
 
         <div className="max-w-6xl mx-auto relative z-10">
@@ -129,7 +129,7 @@ export default function Home() {
       {/* Services / Expertise */}
       <section
         id="services"
-        className="relative py-16 md:py-24 lg:py-32 px-4 sm:px-6 lg:px-8 bg-background overflow-hidden"
+        className="relative py-16 md:py-24 lg:py-32 px-4 sm:px-6 lg:px-8 bg-background"
       >
         <div className="spotlight hidden lg:block" style={{ width: "800px", height: "800px", bottom: "100px", right: "-200px" }}></div>
 
@@ -188,7 +188,7 @@ export default function Home() {
       {/* Sector Approach */}
       <section
         id="expertise"
-        className="relative py-16 md:py-24 lg:py-32 px-4 sm:px-6 lg:px-8 bg-background overflow-hidden"
+        className="relative py-16 md:py-24 lg:py-32 px-4 sm:px-6 lg:px-8 bg-background"
       >
         <div className="spotlight hidden lg:block" style={{ width: "700px", height: "700px", top: "-200px", left: "-300px" }}></div>
 
@@ -247,7 +247,7 @@ export default function Home() {
       {/* Final CTA */}
       <section
         id="contact"
-        className="relative py-16 md:py-24 lg:py-32 px-4 sm:px-6 lg:px-8 bg-background text-foreground overflow-hidden"
+        className="relative py-16 md:py-24 lg:py-32 px-4 sm:px-6 lg:px-8 bg-background text-foreground"
       >
         <div className="spotlight hidden lg:block" style={{ width: "700px", height: "700px", top: "-200px", left: "-300px" }}></div>
         <div className="spotlight hidden lg:block" style={{ width: "600px", height: "600px", bottom: "100px", right: "-200px" }}></div>
